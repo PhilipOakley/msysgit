@@ -31,6 +31,13 @@ However, at least the Bash needs a POSIX layer (most notably due to the absence 
 
 Consequently, MSys ships with a POSIX layer (based on an old version of Cygwin) that is only used by the Bash and Perl, but not by anything compiled within that environment.
 
+# Developing on MsysGit
+
+Development of Msysgit is done onto the master branch. The team's development work flow is to use merging
+rebases so that rebased branches will fast-forward.
+
+Issues [on the Issue tracker] and Pull Requests are copied to the mailing list to aid review.
+
 # Further information
 
 For more information and documentation, please have a look and enhance our [Wiki](https://github.com/msysgit/msysgit/wiki).
